@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*************************CSS BEGIN ************************/
+
+html {
+	font-size: 3px;
+	transition: all 2s;
+}
+
+@media screen and (min-width: 480px) {
+	html { font-size: 4px; }
+}
+
+@media screen and (min-width: 640px) {
+	html { font-size: 5px; }
+}
+
+@media screen and (min-width: 768px) {
+	html { font-size: 6px; }
+}
+
+@media screen and (min-width: 1024px) {
+	html { font-size: 7px; }
+}
+
+div {
+	background-color: #A4CA39;
+}
+
+body {
+	margin: 10rem auto;
+}
+
+.head {
+	display: flex;
+	height: 20rem;
+	width: 40rem;
+	margin: 1.5em auto;
+	border-radius: 50em 50em 0 0;
+}
+
+.l-ant, .r-ant {
+	position: relative;
+	left: 8rem;
+	top: -5rem;
+	transform: rotate(-30deg);
+	height: 10rem;
+	width: 1.5rem;
+	border-radius: 1rem 1rem 0 0;
+}
+
+.r-ant {
+	transform: rotate(30deg);
+	left: 30rem;
+}
+
+.eye {
+	background-color: #FFF;
+	position: relative;
+	margin-right: 12rem;
+	left: 7rem;
+	top: 10rem;
+	height: 4rem;
+	width: 4rem;
+	border-radius: 5rem;
+}
+
+
+.body {
+	display: flex;
+	height: 40rem;
+	width: 40rem;
+	margin: 0 auto;
+	border-radius: 0 0 5em 5em;
+}
+
+
+.l-arm, .r-arm {
+	position: relative;
+	border-radius: 5em;
+	height: 30rem;
+	width: 10rem;
+}
+
+.l-arm {
+	left: -12rem;
+}
+
+.r-arm {
+	left: 32rem;
+}
+
+.l-leg, .r-leg {
+	position: relative;
+	border-radius: 0 0 5em 5em;
+	top: 40rem;
+	right: 15rem;
+	height: 20rem;
+	width: 10rem;
+}
+
+.l-leg {
+	left: -15rem;
+}
+
+.r-leg {
+	right: 5rem;
+}
